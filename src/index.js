@@ -5,7 +5,7 @@ import Image from './components/Image'
 import Item from './components/Item'
 import Span from './components/Span'
 import A from './components/A'
-import renderEmail from './renderEmail'
+// import renderEmail from './renderEmail'
 
 const DEV = typeof process !== 'undefined' && process.env && process.env.NODE_ENV !== 'production'
 
@@ -22,12 +22,12 @@ export {
   Span,
   A,
   configStyleValidator,
-  renderEmail,
+  // renderEmail,
 }
 
 export default {
   PropTypes,
   configStyleValidator,
-  renderEmail,
+  // renderEmail,
   styleValidator,
 }
